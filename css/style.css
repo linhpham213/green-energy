@@ -50,6 +50,9 @@ nav a {
 .info a:hover {
     background-color: #fff0f0;
 }
+.info a:active {
+    background-color: #fff0f0;
+}
 h3 {
     font-size: 2em;
 }
