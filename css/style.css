@@ -7,8 +7,7 @@ body {
 
 .banner {
     background-image: url(../img/banner.png);
-    text-align: center;
-    padding: 100px;
+    padding: 50px;
     font-size: 1.5em;
 }
 h1 {
@@ -45,7 +44,7 @@ nav a {
     border-bottom: 5px solid #d3d3d3;
 }
 .info a {
-    padding: 20px 0px 
+    padding: 20px 0px; 
 }
 .info a:hover {
     background-color: #fff0f0;
@@ -74,13 +73,17 @@ footer li {
     padding: 20px;
 }
 footer ul li {
-    display:inline
+    display:inline;
 }
 
 /*Desktop view*/
 @media only screen and (min-width: 30rem){
     body {
         font-size: 1rem;
+    }
+    .banner {
+        padding: 100px;
+        text-align: center;
     }
     nav ul {
         text-align: center;
@@ -110,7 +113,6 @@ footer ul li {
 /*Mobile view*/
 @media only screen and (max-width: 30rem) {
     .content p {
-        
         clear: both;
     }
 }
